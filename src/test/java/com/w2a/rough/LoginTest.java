@@ -20,7 +20,7 @@ public class LoginTest extends Page {
 		
 		HomePage home = new HomePage();
 		LogInPage lp = home.goToLogIn();
-		ZohoAppPage zp= lp.doLogIn("imtiaj.ciem@yahoo.com", "imtiaj2019");
+		ZohoAppPage zp= lp.doLogIn("imtiaj.ciem@yahoo.com", "***");
 		CRMHomepage cp = zp.goToCRM();
 		AccountsPage account = Page.menu.gotoAccounts();
 		CreateAccountsPage crt_accnt = account.gotoCreateAccount();
